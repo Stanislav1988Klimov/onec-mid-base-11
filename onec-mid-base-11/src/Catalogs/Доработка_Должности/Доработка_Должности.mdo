@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5453abb3-f2e5-4be5-8faf-460b86dc74f5">
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5453abb3-f2e5-4be5-8faf-460b86dc74f5">
   <producedTypes>
     <objectType typeId="ac1a5a92-06ca-40c7-b30a-b4597284261d" valueTypeId="414ae8f6-eb42-42f7-a4ec-191d1cfccce0"/>
     <refType typeId="7a82c5d8-f95d-499c-98e8-9540fcb0fbae" valueTypeId="8c65841a-8276-424c-aaa6-ff5806b861de"/>
@@ -22,7 +22,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>100</descriptionLength>
+  <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -30,70 +30,4 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="e1f190b1-0a97-45a7-91e1-310917087f9e">
-    <name>Доработка_Телефон</name>
-    <synonym>
-      <key>ru</key>
-      <value>Доработка телефон</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>25</length>
-        <fixed>true</fixed>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="8b22d2bc-3719-479b-b70d-42135313baa8">
-    <name>Доработка_Должность</name>
-    <synonym>
-      <key>ru</key>
-      <value>Доработка должность</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Доработка_Должности</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="54ba6c03-d976-497c-b2f6-3fa84b29036d">
-    <name>Доработка_ДействуетНаОсновании</name>
-    <synonym>
-      <key>ru</key>
-      <value>Доработка действует на основании</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="e3faf16c-8491-4e26-a47b-96866f2659d8">
-    <name>Доработка_Заметка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Доработка заметка</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
 </mdclass:Catalog>
