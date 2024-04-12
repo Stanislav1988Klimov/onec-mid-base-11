@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5453abb3-f2e5-4be5-8faf-460b86dc74f5">
+  <producedTypes>
+    <objectType typeId="ac1a5a92-06ca-40c7-b30a-b4597284261d" valueTypeId="414ae8f6-eb42-42f7-a4ec-191d1cfccce0"/>
+    <refType typeId="7a82c5d8-f95d-499c-98e8-9540fcb0fbae" valueTypeId="8c65841a-8276-424c-aaa6-ff5806b861de"/>
+    <selectionType typeId="33c22d8d-d97b-478b-a64f-49e96470815e" valueTypeId="049f1b14-da16-4500-972b-85a6ab3b69ce"/>
+    <listType typeId="670282fc-a993-4651-9a2a-a52a1d1b4776" valueTypeId="29075c9e-49f5-45fb-8466-e648dfd91e50"/>
+    <managerType typeId="30b96a51-eab7-42c1-ace2-edd8e398dcff" valueTypeId="b95740c2-b499-4467-a9d9-813f27aba756"/>
+  </producedTypes>
+  <name>Доработка_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доработка должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Доработка_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Доработка_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
